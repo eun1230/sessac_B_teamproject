@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/main-frame.png);
+  background-size: cover;
+}
+
+.container-fluid {
+  max-width: 1070px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1070px;
+  margin: 0;
+}
+
+.backPage {
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 20px 80px 0;
+}
+
+.backPage h2 {
+  text-align: center;
+  margin: 0;
+  flex: 1;
+}
+
+.backPage svg {
+  font-size: 30px;
+  margin-right: auto;
+  padding-left: 5px;
+  color: black;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button.btn.btn-primary {
+  background-color: #ff8f8f;
+  color: white;
+  border: none;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  transition: filter 0.5s ease;
+}
+
+.card:hover {
+  filter: brightness(80%);
+}
+
+.card img {
+  height: 300px;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 여기서 숫자 3은 3줄을 의미합니다. */
+  -webkit-box-orient: vertical;
+  color: gray;
+}
+
+img:hover {
+  opacity: 0.6;
+}
+
+.nextPageBox {
+  display: flex;
+  justify-content: center;
+}
+
+.nextPage {
+  padding: 10px;
+  margin: 30px 0 0 0;
+  cursor: pointer;
+}
+
+.nextPage:hover {
+  font-weight: 700;
+  color: #ff8f8f;
+}
+
+.nextPage:focus {
+  font-weight: 700;
+  background-color: aqua;
+}
+
+@media (max-width: 1200px) {
+  .buttonBox {
+    display: flex;
+    justify-content: right;
+    width: 86vw;
+  }
+
+  div svg {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .buttonBox {
+    display: flex;
+    justify-content: right;
+    width: 87vw;
+  }
+
+  .topButton {
+    width: 100%;
+  }
+
+  div.card {
+    flex-basis: calc(50% - 65px);
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 480px;
+  }
+
+  .container-fluid {
+    padding: 5px;
+  }
+
+  .backPage {
+    width: 96%;
+    margin-bottom: 40px;
+    margin-right: 8px;
+  }
+
+  .backPage svg {
+    padding-left: 0;
+    font-size: 30px;
+  }
+
+  .mainTitle {
+    font-size: 30px;
+    line-height: 80px;
+  }
+
+  div svg {
+    font-size: 10px;
+  }
+
+  div.category {
+    width: 480px;
+  }
+
+  div.card {
+    flex-basis: calc(50% - 10px);
+  }
+
+  div.card-body img {
+    display: none;
+  }
+
+  div.card-body span#cnt-heart {
+    display: none;
+  }
+
+  img.card-img-top {
+    height: 200px;
+  }
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+}
