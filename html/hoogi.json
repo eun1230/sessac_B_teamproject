@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "./img/main_community/detail-img1.png",
+    "title": "온누리 병원 다녀온 후기",
+    "content": "훌륭한 진료 경험과 따뜻한 서비스로 인해 반려견과 함께 편안한 시간을 보낼 수 있었습니다.",
+    "minute": 3,
+    "addr": "서울특별시 강남구 역삼동 123-45"
+  },
+  {
+    "id": 2,
+    "image": "./img/main_community/detail-img14.png",
+    "title": "더캣호텔",
+    "content": "고양이 전용 객실과 전문적인 관리로 안정적인 휴식을 제공해주어 고양이와 함께하는 특별한 시간을 만들어주었습니다.",
+    "minute": 5,
+    "addr": "서울특별시 송파구 잠실동 678-90"
+  },
+  {
+    "id": 3,
+    "image": "./img/main_community/detail-img2.png",
+    "title": "멍냥키카페",
+    "content": "고양이와 강아지가 함께하는 특별한 카페로, 다양한 반려동물과 즐거운 시간을 보낼 수 있습니다.",
+    "minute": 16,
+    "addr": "서울특별시 마포구 서교동 111-22"
+  },
+  {
+    "id": 4,
+    "image": "./img/main_community/detail-img3.png",
+    "title": "헤어피플 애견카페",
+    "content": "편안한 분위기와 맛있는 음료와 함께, 강아지와 놀 수 있는 곳입니다.",
+    "minute": 19,
+    "addr": "경기도 수원시 팔달구 매산로 1"
+  },
+  {
+    "id": 5,
+    "image": "./img/main_community/detail-img6.png",
+    "title": "햇살 동물의료센터",
+    "content": "진료 전문성과 소통 능력이 뛰어난 의료진들 덕분에, 내 반려동물의 건강 상태에 대해 정확하고 신뢰할 수 있는 정보를 얻을 수 있었습니다.",
+    "minute": 20,
+    "addr": "경기도 성남시 분당구 정자동 234-56"
+  },
+  {
+    "id": 6,
+    "image": "./img/main_community/detail-img5.png",
+    "title": "독스토리",
+    "content": "친절하고 전문적인 미용사들이 반려견을 아름답게 손질해줘서 너무 만족스러웠습니다.",
+    "minute": 30,
+    "addr": "경기도 용인시 수지구 죽전동 789-10"
+  },
+  {
+    "id": 7,
+    "image": "./img/main_community/detail-img8.png",
+    "title": "미래 동물병원",
+    "content": "전문가들의 친절한 안내와 철저한 검진으로 안심하고 내 반려동물을 맡길 수 있었습니다.",
+    "minute": 4,
+    "addr": "서울특별시 강서구 화곡동 321-54"
+  },
+  {
+    "id": 8,
+    "image": "./img/main_community/detail-img9.png",
+    "title": "펫샵",
+    "content": "청결하고 안전한 환경에서 반려견의 피부와 털을 전문적으로 관리해주어 매우 만족스러웠습니다.",
+    "minute": 1,
+    "addr": "경기도 용인시 수지구 죽전동 789-10"
+  },
+  {
+    "id": 9,
+    "image": "./img/main_community/detail-img4.png",
+    "title": "카페 더 퍼피",
+    "content": "귀여운 애견들과 함께하는 특별한 커피 타임을 즐길 수 있는 곳입니다.",
+    "minute": 2,
+    "addr": "경기도 성남시 분당구 정자동 234-56"
+  },
+  {
+    "id": 10,
+    "image": "./img/main_community/detail-img10.png",
+    "title": "그린 동물병원",
+    "content": "청결한 병원 환경과 높은 수준의 의료 서비스로 인해 걱정 없이 내 반려동물을 치료할 수 있었습니다.",
+    "minute": 60,
+    "addr": "경기도 수원시 팔달구 매산로 1"
+  },
+  {
+    "id": 11,
+    "image": "./img/main_community/detail-img13.png",
+    "title": "헤어피플 애견카페",
+    "content": "편안한 분위기와 맛있는 음료와 함께, 강아지와 놀 수 있는 곳입니다.",
+    "minute": 3,
+    "addr": "서울특별시 마포구 서교동 111-22"
+  },
+  {
+    "id": 12,
+    "image": "./img/main_community/detail-img12.png",
+    "title": "펫파크 펫호텔:",
+    "content": "청결하고 안전한 시설과 맛있는 간식, 그리고 친절한 서비스로 반려견과 함께하는 완벽한 휴가를 즐길 수 있었습니다.",
+    "minute": 10,
+    "addr": "서울특별시 송파구 잠실동 678-90"
+  }
+]
