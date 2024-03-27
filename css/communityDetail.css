@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/main-frame.png);
+  background-size: cover;
+}
+
+.container-fluid {
+  max-width: 1070px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backKey {
+  display: flex;
+  margin: 60px 10px 60px 10px;
+  width: 70%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.backKey h2 {
+  text-align: center;
+  margin: 0;
+  flex: 1;
+}
+
+.backKey svg {
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.dataBox {
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataMiniBox {
+  display: flex;
+}
+
+.dataMiniBox p {
+  margin-left: 20px;
+}
+
+.mainDiv {
+  width: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.titleThema {
+  margin: 30px;
+}
+
+.mainPicture {
+  width: 750px;
+  height: 800px;
+  border-radius: 10px;
+}
+
+.mainText {
+  width: 749px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.comment {
+  position: relative;
+  height: 120px;
+  width: 70%;
+}
+
+.comment input {
+  width: 79%;
+  height: 45%;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.commentBox {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.commentBox {
+  width: 71%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  background-color: aliceblue;
+  border-radius: 20px;
+  position: relative;
+}
+
+.likeBox {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  margin: 10px;
+}
+
+.likeBox svg {
+  margin-right: 5px;
+}
+
+.likeBox p {
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.commentMini {
+  display: flex;
+}
+
+.commentMini img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.commentMini p {
+  line-height: 15px;
+  margin: 10px;
+}
+
+.commentText p {
+  margin-left: 40px;
+}
+
+.morePicture {
+  width: 749px;
+  margin: 0;
+}
+
+.category {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  border: 3px pink solid;
+  margin-top: 20px;
+}
+
+.category p {
+  margin-right: 20px;
+}
+
+.pictureLink a {
+  display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pictureLink svg {
+  font-size: 23px;
+}
+
+.bottomImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomImg img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+section img:hover {
+  opacity: 0.6;
+}
+
+.upload {
+  position: absolute;
+  right: 0px;
+  bottom: 33px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff8f8f;
+  color: white;
+  width: 20%;
+  height: 40%;
+}
+
+.upload:hover {
+  background-color: #ff6b6b;
+  color: black;
+}
+
+@media (max-width: 479px) {
+  main {
+    width: 460px;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.container-fluid {
+    width: 460px;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.mainDiv {
+    width: 440px;
+  }
+
+  .mainPicture {
+    width: 100%;
+    height: 500px;
+  }
+
+  .backKey {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .backKey svg {
+    font-size: 25px;
+  }
+
+  div textarea {
+    width: 78%;
+  }
+
+  .mainText {
+    width: 440px;
+  }
+
+  .comment {
+    position: relative;
+    height: 120px;
+    width: 100%;
+  }
+
+  .pictureLink svg {
+    font-size: 21px;
+  }
+
+  div.morePicture {
+    width: 440px;
+  }
+
+  div.morePicture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  .dataBox {
+    width: 90%;
+    margin-top: 80px;
+  }
+
+  .commentBox {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+}
