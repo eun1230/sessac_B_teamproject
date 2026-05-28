@@ -71,7 +71,7 @@ https://github.com/eun1230/sessac_B_teamproject
 
 - **조은별** [@eun1230](http://github.com/eun1230) : `팀장` 메인, 지도 페이지
 
-- **조혜진** [@hjinn0813](http://github.com/hjinn0813) : 로그인, 회원가입, ABOUT
+- **조유진** [@yjinn0813](http://github.com/yjinn0813) : 로그인, 회원가입, ABOUT
 
 - **닌진** [@ninjuunn](http://github.com/ninjuunn) : 예약하기
 
